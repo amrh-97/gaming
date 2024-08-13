@@ -1,0 +1,270 @@
+@media (max-width: 1023px) {
+
+    /* || Variables */
+    :root {
+        --gm--h1--fontsize: 46px;
+        --gm--h2--fontsize: 40px;
+        --gm--h3--fontsize: 36px;
+    }
+
+    /* || Header */
+    #main__head .site--logo a:nth-child(1) img {
+        display: none;
+    }
+
+    #main__head .site--logo a:nth-child(2) img {
+        display: block;
+    }
+
+    #main__head .head--nav ul {
+        display: none;
+    }
+
+    #main__head .head--nav .menu--icon {
+        display: block;
+        color: var(--gm--color--8);
+        font-size: 32px;
+    }
+
+    #main__head .head--btn {
+        display: none;
+    }
+
+    /* || Section--1 */
+    #sec__1 .sec1--content .gm_global_para2:nth-child(3),
+    #sec__2 .box--txt .gm_global_para2,
+    #sec__3 .sec3--txt .gm_global_para2:nth-child(3),
+    #sec__4 .review--box .gm_global_para2,
+    #sec__5 .sec5--txt .gm_global_para2:nth-child(3),
+    #sec__8 .sec3--txt .gm_global_para2:nth-child(3) {
+        width: 100%;
+    }
+
+    /* || Section--2 */
+    #sec__2 .sec2--box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* || Section--3 */
+    #sec__3 .sec3--content,
+    #sec__8 .sec3--content {
+        padding: 20px;
+    }
+
+    .sec3--content .sec3--txt {
+        width: 100%;
+    }
+
+    .sec3--txt .sec3--avatar,
+    .sec3--txt .sec8--avatar {
+        display: none;
+    }
+
+    /* || Section--4 */
+    #sec__4 .sec4--review {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* || Section--5 */
+    #sec__5 .sec5--content {
+        flex-direction: column;
+    }
+
+    #sec__5 .sec5--img,
+    .sec5--txt {
+        width: 100%;
+    }
+
+    /* || Section--6 */
+    #sec__6 .sec6--btn {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #sec__6 .sec6--games {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* || Section--7 */
+    #sec__7 .sec7--content .sec7--faqs {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #sec__7 .sec7--faqs .faq--prt1 {
+        width: 100%;
+    }
+
+    #sec__7 .faq--prt1 ul li:after {
+        right: 10px;
+    }
+
+    #sec__7 .faq--prt1 ul li {
+        padding: 18px 40px 18px 10px;
+    }
+
+    /* || Section--8 */
+    #sec__8 .sec3--content .download--platform {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* || Section--9 */
+    #sec__9 .sec9--content {
+        flex-direction: row;
+    }
+
+    #sec__9 .sec9--payment {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* || Footer */
+    #main__footer .footer-prt1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #main__footer .prt2--content {
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    /* || Variables */
+    :root {
+        --gm--h1--fontsize: 46px;
+        --gm--h2--fontsize: 40px;
+        --gm--h3--fontsize: 36px;
+    }
+
+    /* || Header */
+    #main__head .site--logo a:nth-child(1) img {
+        display: none;
+    }
+
+    #main__head .site--logo a:nth-child(2) img {
+        display: block;
+    }
+
+    #main__head .head--nav ul {
+        display: none;
+    }
+
+    #main__head .head--nav .menu--icon {
+        display: block;
+        color: var(--gm--color--8);
+        font-size: 32px;
+    }
+
+    #main__head .head--btn {
+        display: none;
+    }
+
+    /* || Section--1 */
+    #sec__1 .sec1--content .gm_global_para2:nth-child(3),
+    #sec__2 .box--txt .gm_global_para2,
+    #sec__3 .sec3--txt .gm_global_para2:nth-child(3),
+    #sec__4 .review--box .gm_global_para2,
+    #sec__5 .sec5--txt .gm_global_para2:nth-child(3),
+    #sec__8 .sec3--txt .gm_global_para2:nth-child(3) {
+        width: 100%;
+    }
+
+    /* || Section--2 */
+    #sec__2 .sec2--box {
+        grid-template-columns: 1fr;
+    }
+
+    /* || Section--3 */
+    #sec__3 .sec3--content,
+    #sec__8 .sec3--content {
+        padding: 20px;
+    }
+
+    .sec3--content .sec3--txt {
+        width: 100%;
+    }
+
+    .sec3--txt .sec3--avatar,
+    .sec3--txt .sec8--avatar {
+        display: none;
+    }
+
+    /* || Section--4 */
+    #sec__4 .sec4--review {
+        grid-template-columns: 1fr;
+    }
+
+    /* || Section--5 */
+    #sec__5 .sec5--content {
+        flex-direction: column;
+    }
+
+    #sec__5 .sec5--img,
+    .sec5--txt {
+        width: 100%;
+    }
+
+    /* || Section--6 */
+    #sec__6 .sec6--btn {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #sec__6 .sec6--games {
+        grid-template-columns: 1fr;
+    }
+
+    /* || Section--7 */
+    #sec__7 .sec7--content .sec7--faqs {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #sec__7 .sec7--faqs .faq--prt1 {
+        width: 100%;
+    }
+
+    #sec__7 .faq--prt1 ul li:after {
+        right: 10px;
+    }
+
+    #sec__7 .faq--prt1 ul li {
+        padding: 18px 40px 18px 10px;
+    }
+
+    /* || Section--8 */
+    #sec__8 .sec3--content .download--platform {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* || Section--9 */
+    #sec__9 .sec9--content {
+        flex-direction: column;
+    }
+
+    #sec__9 .sec9--payment {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* || Footer */
+    #main__footer .footer-prt1 {
+        grid-template-columns: 1fr;
+    }
+
+    #main__footer .prt2--content {
+        flex-direction: column;
+    }
+}
